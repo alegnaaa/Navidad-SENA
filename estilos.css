@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.alturaBoton1 {
+    height: 5rem;
+    background-color: rgb(166, 242, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+
+.alturaBoton2 {
+    height: 5rem;
+    background-color: rgb(51, 225, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+
+.alturaBoton3 {
+    height:  5rem;
+    background-color: rgb(30, 140, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+
+.alturaBoton1:hover {
+    background-color: rgb(179, 160, 247);
+}
+
+.alturaBoton2:hover {
+    background-color: rgb(107, 64, 234);
+}
+
+.alturaBoton3:hover {
+    background-color: rgb(103, 81, 130);
+}
+
+.slider {
+    height: 20rem;
+    background-color: white;
+    background-image: url(images/Mesa\ de\ trabajo\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja1 {
+    background-color: rgb(79, 233, 192);
+    background-image: url(images/renopng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 22rem;
+}
+
+.caja2 {
+    background-color: rgb(90, 187, 222);
+    background-image: url(images/santaClaus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 22rem;
+}
+
+.caja3 {
+    background-color: rgb(62, 95, 186);
+    background-image: url(images/arbolito.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 22rem;
+}
+
+.caja4,
+.caja5,
+.caja6,
+.caja7,
+.caja8 {
+    background-color: rgb(206, 206, 206);
+    background-image: url(images/esferaNavidad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20%; 
+    margin: 0 auto; 
+    height: 15rem;
+}
+
+.copyright {
+    height: 7rem;
+    background-color: rgb(137, 83, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    
+}
+
+.copyright h1{
+    color: black;
+    height: 15px;
+}
